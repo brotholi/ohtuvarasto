@@ -1,1 +1,0 @@
-print("omena on hedelmä")
