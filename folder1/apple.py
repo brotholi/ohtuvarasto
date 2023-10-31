@@ -1,1 +1,1 @@
-
+print("omena on hedelmä")
