@@ -66,7 +66,7 @@ class TestVarasto(unittest.TestCase):
     def test_tulosta_saldo(self):
         self.varasto.lisaa_varastoon(7)
         tulostus = self.varasto.__str__()
-
+        print(tulostus)
         self.assertEqual(tulostus, "saldo = 7, vielä tilaa 3")
 
 
